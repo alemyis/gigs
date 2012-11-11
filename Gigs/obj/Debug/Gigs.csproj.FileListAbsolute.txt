@@ -3,3 +3,13 @@ C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Gigs.pdb
 C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.csprojResolveAssemblyReference.cache
 C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.dll
 C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.pdb
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Edm.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.OData.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Services.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\System.Spatial.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Edm.xml
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.OData.xml
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Services.xml
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\System.Spatial.xml
