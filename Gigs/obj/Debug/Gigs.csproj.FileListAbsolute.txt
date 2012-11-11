@@ -1,0 +1,5 @@
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Gigs.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\bin\Gigs.pdb
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.csprojResolveAssemblyReference.cache
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.dll
+C:\Users\Alemeshet\Documents\GitHub\Gigs\Gigs\obj\Debug\Gigs.pdb
