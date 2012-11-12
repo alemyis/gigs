@@ -8,12 +8,14 @@ namespace Gigs
     /// <summary>
     /// Gigs data context
     /// </summary>
-    public class GigsContext
+    public partial class GigsContext
     {
         private GigsContext()
         {
-            //TODO: initialization
+            Initialize();
         }
+
+        private Repository.IGigsRepository repository;
 
         /// <summary>
         /// Singleton Gigs context
@@ -68,6 +70,5 @@ namespace Gigs
                 return extras.AsQueryable();
             }
         }
-
     }
 }

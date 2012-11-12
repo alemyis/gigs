@@ -10,5 +10,9 @@ namespace Gigs.Entities
     public class Note
     {
         public int NoteId { get; set; }
+
+        public int PositionId { get; set; }
+
+        public string Blurb { get; set; }
     }
 }

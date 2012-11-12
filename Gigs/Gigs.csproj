@@ -80,11 +80,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\gigs.xml" />
     <Content Include="Gigs.svc" />
     <Content Include="Heartbeat.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GigsContext.Initialization.cs" />
     <Compile Include="Entities\About.cs" />
     <Compile Include="Entities\Extra.cs" />
     <Compile Include="Entities\Note.cs" />
@@ -102,6 +104,9 @@
       <DependentUpon>Heartbeat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AlemeshetAlemu.cs" />
+    <Compile Include="Repository\IGigsRepository.cs" />
+    <Compile Include="Repository\XMLGigsRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

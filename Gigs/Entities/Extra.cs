@@ -10,5 +10,9 @@ namespace Gigs.Entities
     public class Extra
     {
         public int ExtraId { get; set; }
+
+        public string Blurb { get; set; }
+
+        public int AboutId { get; set; }
     }
 }

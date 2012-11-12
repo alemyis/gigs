@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<DataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Abouts>
+    <About>
+      <AboutId>1</AboutId>
+      <FirstName>Alemeshet</FirstName>
+      <LastName>Alemu</LastName>
+      <Email>alemyis@gmail.com</Email>
+      <Phone>425.802.8852</Phone>
+    </About>
+  </Abouts>
+  <Positions>
+    <Position>
+      <PositionId>1</PositionId>
+      <Title>Software Development Engineer II</Title>
+      <Employer>Microsoft Corporation</Employer>
+      <City>Redmond</City>
+      <State>WA</State>
+      <From>2011-09-01T00:00:00</From>
+      <To>2012-11-11T15:29:31.180311-08:00</To>
+      <AboutId>1</AboutId>
+    </Position>
+    <Position>
+      <PositionId>2</PositionId>
+      <Title>SECURITY SDE 2</Title>
+      <Employer>Microsoft Corporation</Employer>
+      <City>Redmond</City>
+      <State>WA</State>
+      <From>2008-08-01T00:00:00</From>
+      <To>2011-09-01T00:00:00</To>
+      <AboutId>1</AboutId>
+    </Position>
+    <Position>
+      <PositionId>3</PositionId>
+      <Title>Software Design Engineer</Title>
+      <Employer>Volt Technical Resources (contractor to Microsoft)</Employer>
+      <City>Redmond</City>
+      <State>WA</State>
+      <From>2007-08-01T00:00:00</From>
+      <To>2008-09-01T00:00:00</To>
+      <AboutId>1</AboutId>
+    </Position>
+    <Position>
+      <PositionId>4</PositionId>
+      <Title>Solution Developer</Title>
+      <Employer>Volt Technical Resources (contractor to Avanade)</Employer>
+      <City>Seattle</City>
+      <State>WA</State>
+      <From>2007-02-01T00:00:00</From>
+      <To>2007-08-01T00:00:00</To>
+      <AboutId>1</AboutId>
+    </Position>
+    <Position>
+      <PositionId>5</PositionId>
+      <Title>Software Design Engineer</Title>
+      <Employer>Volt Technical Resources (contractor to Microsoft)</Employer>
+      <City>Redmond</City>
+      <State>WA</State>
+      <From>2005-11-01T00:00:00</From>
+      <To>2006-10-01T00:00:00</To>
+      <AboutId>1</AboutId>
+    </Position>
+  </Positions>
+  <Notes>
+    <Note>
+      <NoteId>1</NoteId>
+      <PositionId>1</PositionId>
+      <Blurb>Redesigned backed service/API layer behind windows phone developer center</Blurb>
+    </Note>
+    <Note>
+      <NoteId>2</NoteId>
+      <PositionId>1</PositionId>
+      <Blurb>Own automated deployment of components underneath the service layer</Blurb>
+    </Note>
+    <Note>
+      <NoteId>3</NoteId>
+      <PositionId>1</PositionId>
+      <Blurb>Assist organization wide engineering process (deployment, source code integration, bug triage, Security Compliance effort)</Blurb>
+    </Note>
+    <Note>
+      <NoteId>4</NoteId>
+      <PositionId>1</PositionId>
+      <Blurb>Mentor junior team members</Blurb>
+    </Note>
+    <Note>
+      <NoteId>5</NoteId>
+      <PositionId>1</PositionId>
+      <Blurb>Environment: ASP.Net, C#, SQL, XML, IIS, OData/WCF, Proprietary deployment technology</Blurb>
+    </Note>
+    <Note>
+      <NoteId>6</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Own a number of web based tools for the security team</Blurb>
+    </Note>
+    <Note>
+      <NoteId>7</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Handled multiple major releases every 6 months and weekly patch cycle</Blurb>
+    </Note>
+    <Note>
+      <NoteId>8</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Worked on Attack Surface Analyzer – my focus was on modeling analysis and report generation</Blurb>
+    </Note>
+    <Note>
+      <NoteId>9</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Worked on establishing team wide engineering standards– code reviews, transition to TFS, staged deployment, customer support</Blurb>
+    </Note>
+    <Note>
+      <NoteId>10</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Managed contingency staff, conducted interviews, spec reviews, task costing and allocation</Blurb>
+    </Note>
+    <Note>
+      <NoteId>11</NoteId>
+      <PositionId>2</PositionId>
+      <Blurb>Environment: C#, SQL, ASP.net, IIS, XML/XSLT, WPF</Blurb>
+    </Note>
+    <Note>
+      <NoteId>12</NoteId>
+      <PositionId>3</PositionId>
+      <Blurb>Responsible for building and supporting internal web tool. Product teams use this tool to meet Microsoft’s Secured Development Lifecycle standard.</Blurb>
+    </Note>
+    <Note>
+      <NoteId>13</NoteId>
+      <PositionId>3</PositionId>
+      <Blurb>Responsible for team wide daily build system.</Blurb>
+    </Note>
+    <Note>
+      <NoteId>14</NoteId>
+      <PositionId>3</PositionId>
+      <Blurb>Environment: ASP.Net, C#, SQL, XML, IIS, Web Services, JavaScript, batch files</Blurb>
+    </Note>
+    <Note>
+      <NoteId>15</NoteId>
+      <PositionId>4</PositionId>
+      <Blurb>Worked on Dynamic Systems Framework (in-house product). DSF is a modeling and deploying tool for complex software products (e.g. Microsoft Office SharePoint Service).</Blurb>
+    </Note>
+    <Note>
+      <NoteId>16</NoteId>
+      <PositionId>4</PositionId>
+      <Blurb>Refactor exiting DSF libraries and developed model for MOSS 2007</Blurb>
+    </Note>
+    <Note>
+      <NoteId>17</NoteId>
+      <PositionId>4</PositionId>
+      <Blurb>Mentor interns</Blurb>
+    </Note>
+    <Note>
+      <NoteId>18</NoteId>
+      <PositionId>4</PositionId>
+      <Blurb>Environment: C#, WMI, VBScript, SQL, Reporting Services, IIS, MOSS 2007, PowerShell</Blurb>
+    </Note>
+    <Note>
+      <NoteId>19</NoteId>
+      <PositionId>5</PositionId>
+      <Blurb>Work on a Microsoft PerformancePoint Server 2007 (PPS). PPS is a business modeling, planning, budgeting, forecasting tool.</Blurb>
+    </Note>
+    <Note>
+      <NoteId>20</NoteId>
+      <PositionId>5</PositionId>
+      <Blurb>Responsible for import-export module.</Blurb>
+    </Note>
+    <Note>
+      <NoteId>21</NoteId>
+      <PositionId>5</PositionId>
+      <Blurb>Maintained a fully automated sanity check system run before each source check-in (quality gateway).</Blurb>
+    </Note>
+    <Note>
+      <NoteId>22</NoteId>
+      <PositionId>5</PositionId>
+      <Blurb>Environment: C#, XML technology, IIS, Web Services, MS SQL, batch scriptEDUCATION</Blurb>
+    </Note>
+  </Notes>
+  <Trainings>
+    <Training>
+      <TrainingId>1</TrainingId>
+      <City>Fairfield</City>
+      <State>IA</State>
+      <Country>U.S.A</Country>
+      <Institution>Maharish University of Managment</Institution>
+      <GraduationDate>2008-02-01T00:00:00</GraduationDate>
+      <Degree>MS in Computer Science</Degree>
+      <AboutId>1</AboutId>
+    </Training>
+    <Training>
+      <TrainingId>2</TrainingId>
+      <City>Addis Ababa</City>
+      <State>Region 14</State>
+      <Country>Ethiopia</Country>
+      <Institution>Addis Ababa University</Institution>
+      <GraduationDate>2004-07-01T00:00:00</GraduationDate>
+      <Degree>B.Sc. in Electrical and Computer Engineering</Degree>
+      <AboutId>1</AboutId>
+    </Training>
+    <Training>
+      <TrainingId>3</TrainingId>
+      <City>Addis Ababa</City>
+      <State>Region 14</State>
+      <Country>Ethiopia</Country>
+      <Institution>Cisco Regional Academy</Institution>
+      <GraduationDate>2003-05-01T00:00:00</GraduationDate>
+      <Degree>Cisco Certified Network Associate training</Degree>
+      <AboutId>1</AboutId>
+    </Training>
+    <Training>
+      <TrainingId>4</TrainingId>
+      <City>Redmond</City>
+      <State>WA</State>
+      <Country>U.S.A</Country>
+      <GraduationDate>2008-06-01T00:00:00</GraduationDate>
+      <Degree>Microsoft Certified Professional (070-315)</Degree>
+      <AboutId>1</AboutId>
+    </Training>
+  </Trainings>
+  <Extras>
+    <Extra>
+      <ExtraId>1</ExtraId>
+      <Blurb>Working in individual and/or group startup environments on these projects</Blurb>
+      <AboutId>1</AboutId>
+    </Extra>
+    <Extra>
+      <ExtraId>2</ExtraId>
+      <Blurb>Qworky team,  released core jegolize framework. Environment: Ruby on Rails, JavaScript, JQuery, mysql, Git</Blurb>
+      <AboutId>1</AboutId>
+    </Extra>
+    <Extra>
+      <ExtraId>3</ExtraId>
+      <Blurb>AppPrizes team. Environment: PHP, MySql, JavaScript, JQuery, S3</Blurb>
+      <AboutId>1</AboutId>
+    </Extra>
+    <Extra>
+      <ExtraId>4</ExtraId>
+      <Blurb>OQπ a weekend and nights project to practice phone deployment. Environment: Windows Phone, C#, Silver Light</Blurb>
+      <AboutId>1</AboutId>
+    </Extra>
+    <Extra>
+      <ExtraId>5</ExtraId>
+      <Blurb>GeezCheata a toy game in mother tongue. Environment: Ruby on Rails, JavaScript, JQuery, mysql, Git, AWS</Blurb>
+      <AboutId>1</AboutId>
+    </Extra>
+  </Extras>
+</DataSource>

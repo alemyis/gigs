@@ -17,7 +17,7 @@ namespace Gigs.Entities
         /// <param name="note">The note to add</param>
         public void AddNote(Note note)
         {
-
+            notes.Add(note);
         }
 
         private ICollection<Note> notes = new List<Note>();
@@ -28,5 +28,19 @@ namespace Gigs.Entities
                 return notes.AsQueryable();
             }
         }
+
+        public string Title { get; set; }
+
+        public string Employer { get; set; }
+
+        public string City { get; set; }
+
+        public string State { get; set; }
+
+        public DateTime From { get; set; }
+
+        public DateTime To { get; set; }
+
+        public int AboutId { get; set; }
     }
 }
