@@ -19,21 +19,22 @@ function LoadGig(gigId) {
         function (data, response) {
             gig = data;
 
-            $('#about').text(gig.FirstName + ' ' + gig.LastName + ' ' + gig.Phone + ' ' + gig.Email);
+            //contact info
+            $("#aboutTemplate")
+                .tmpl(gig)
+                .appendTo("#about");
 
-            $.each(gig.Positions, function () {
-                $('<p>' + this.Title + '</p>').appendTo('#positions');
-            });
+            $("#positionTemplate")
+                .tmpl(gig.Positions)
+                .appendTo("#positions");
 
-            $.each(gig.Trainings, function () {
-                $('<p>' + this.Degree + '</p>').appendTo('#trainings');
-            });
+            $("#trainingTemplate")
+                .tmpl(gig.Trainings)
+                .appendTo("#trainings");
 
-
-            $.each(gig.Extras, function () {
-                $('<p>' + this.Blurb + '</p>').appendTo('#extras');
-            });
-            
+            $("#extraTemplate")
+                .tmpl(gig.Extras)
+                .appendTo("#extras");
         },
         function (error) {
             LogError(error);

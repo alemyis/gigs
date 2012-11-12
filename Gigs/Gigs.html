@@ -3,6 +3,7 @@
 <head>
     <title>Gigs</title>
     <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="//ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
     <script src="js/datajs-1.0.3.min.js" type="text/javascript"></script>
     <script src="js/Gigs.js" type="text/javascript"></script>
     <link href="style/Gigs.css" rel="stylesheet" />
@@ -15,13 +16,61 @@
         <div id="about"></div>
 
         <div class="header">Positions</div>
-        <div id="positions"></div>
+        <ul id="positions"></ul>
 
         <div class="header">Trainings</div>
-        <div id="trainings"></div>
+        <ul id="trainings"></ul>
 
         <div class="header">Fun Facts</div>
-        <div id="extras"></div>
+        <ul id="extras"></ul>
     </div>
+
+    
+    <!-- template for abour points: start-->
+    <script id="aboutTemplate" type="text/x-jquery-tmpl">
+        <div id="firstName">${FirstName}</div>
+        <div id="lastName">${LastName}</div>
+        <div id="email"><a href='mailto:${Email}'>${Email}</a></div>
+        <div id="phone">${Phone}</div>
+    </script>
+    <!-- template for about points: End-->
+    
+    <!-- template for positions points: Start-->
+    <script id="positionTemplate" type="text/x-jquery-tmpl"> 
+        <li>
+            <div class="Title">${Title}</div>
+            <span class="Employer">${Employer} - </span>
+            <span class="City">${City},</span>
+            <span class="State">${State}</span>
+            <span class="Date">${From} <br /> ${To}</span>
+            <ul>
+                {{each(i, note) Notes}}
+                   <li><span class="Blurb">${Blurb}</span></li>
+                {{/each}}     
+            </ul>    
+        </li>    
+    </script>
+    <!-- template for positions points: End-->
+
+    <!--template for training: Start-->
+    <script id="trainingTemplate" type="text/x-jquery-tmpl"> 
+        <li>
+            <div class="Degree">${Degree}</div>
+            <span>${Institution} - </span>
+            <span>${City},</span>
+            <span>${State},</span>
+            <span>${Country}</span>
+            <span class="Date">${GraduationDate}</span>     
+        </li>    
+    </script>
+    <!--template for training: End-->
+
+    <!-- template for extra points: Start-->
+    <script id="extraTemplate" type="text/x-jquery-tmpl"> 
+        <li>
+            - ${Blurb}          
+        </li>    
+    </script>
+    <!-- template for extra points: End-->
 </body>
 </html>
