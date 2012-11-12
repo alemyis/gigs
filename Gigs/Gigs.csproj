@@ -83,6 +83,9 @@
     <Content Include="AppData\gigs.xml" />
     <Content Include="Gigs.svc" />
     <Content Include="Heartbeat.aspx" />
+    <Content Include="js\datajs-1.0.3.min.js" />
+    <Content Include="js\TestConsole.js" />
+    <Content Include="TestConsole.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test Console</title>
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/TestConsole.js" type="text/javascript"></script>
+    <script src="js/datajs-1.0.3.min.js" type="text/javascript"></script>
+</head>
+<body>
+        <div>
+            <h1>Test console</h1>
+            <select id="testSelection">
+                <option value="" selected>Resources</option>
+                <option value="Abouts(1)?$expand=Positions/Notes,Extras,Trainings">Everything About 1</option>
+                <option value="Abouts(1)">About 1</option>
+                <option value="Traingins">All Trainings</option>
+                <option value="Positions">All Positions</option>
+                <option value="Positions/?$expand=Notes">All Positions & Notes</option>
+                <option value="Extras">All Extras</option>
+                <option value="Extras/?$top=2">The first two extra</option>
+                <option value="Positions?$filter=year(From) le 2008 and year(To) ge 2008">Positions held 2008</option>
+                <option value="Abouts?$select=FirstName">First Name</option>
+            </select>
+            <button id="testButton">Go</button>
+            <div id="urlSpan"></div>
+        </div>
+        <div>
+            <iframe id="resultFrame" width="600px" height="900px"></iframe>
+        </div>
+</body>
+</html>
