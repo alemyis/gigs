@@ -42,7 +42,7 @@
             <span class="Employer">${Employer} - </span>
             <span class="City">${City},</span>
             <span class="State">${State}</span>
-            <span class="Date">${From} <br /> ${To}</span>
+            <span class="Date">${GetMonthYearFormat(From)} <br /> ${GetMonthYearFormat(To)}</span>
             <ul>
                 {{each(i, note) Notes}}
                    <li><span class="Blurb">${Blurb}</span></li>
@@ -60,7 +60,7 @@
             <span>${City},</span>
             <span>${State},</span>
             <span>${Country}</span>
-            <span class="Date">${GraduationDate}</span>     
+            <span class="Date">${GetMonthYearFormat(GraduationDate)}</span>     
         </li>    
     </script>
     <!--template for training: End-->

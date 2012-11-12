@@ -41,6 +41,12 @@ function LoadGig(gigId) {
         });
 }
 
+function GetMonthYearFormat(dateString) {
+    var value = new Date(parseInt(dateString.substr(6)));
+    var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec");
+    return theMonths[value.getMonth()] + " " + value.getFullYear();
+}
+
 function LogError(message) {
     alert(message);
 }
